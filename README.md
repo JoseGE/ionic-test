@@ -1,11 +1,10 @@
-# Prueba Técnica IONIC  - Banco BHDLeon.
+# Prueba Técnica IONIC  - Banco BHDLeón.
 
-Hola !, bienvenido a la prueba técnica IONIC de banco bhdleon, esta prueba tiene como propósito principal el conocerte más, además nos permitirá validar tus aptitudes ya demostrada durante la entrevista, entender la forma en la que regularmente enfrentas los problemas presentados durante la construcción del software y qué tanto podemos aprovecharla.
+¡Hola !, bienvenido a la prueba técnica IONIC de banco BhdLeón, esta prueba tiene como propósito principal el conocerte más, además nos permitirá validar tus aptitudes ya demostrada durante la entrevista, entender la forma en la que regularmente enfrentas los problemas presentados durante la construcción del software y qué tanto podemos aprovecharla.
 
-Es importante mencionar que cada quien tiene la mejor forma de hacer las cosas, sin embargo para nosotros es muy importante que apliques ciertos conceptos durante esta prueba, que nos permitirá saber que tan rapido puedas aportar al proyecto donde estarás asignado.
+Es importante mencionar que cada quien tiene la mejor forma de hacer las cosas, sin embargo, para nosotros es muy importante que apliques ciertos conceptos durante esta prueba, que nos permitirá saber que tan rápido puedas aportar al proyecto donde estarás asignado.
 
-> Importante!: Sientete comodo completando la misma, usualmente tenemos un dicho en los procesos de entrevista que dice: 'Trata a los demás como te gustaria ser tratado a ti.', es importante que podamos conocer tu forma de trabajar, dicho esto, si entiendes que no sabes como hacer algo, o como resolver el problema, siente en la libertad en decirlo.
-
+> Importante!: Siéntete cómodo completando la misma, usualmente tenemos un dicho en los procesos de entrevista que dice: 'Trata a los demás como te gustaría ser tratado a ti.', es importante que podamos conocer tu forma de trabajar, dicho esto, si entiendes que no sabes como hacer algo, o como resolver el problema, siente en la libertad en decirlo.
 
 ## Requisitos básicos
 
@@ -16,7 +15,7 @@ Antes de comenzar es necesario que puedas tener tu ambiente bien configurado de 
 - Internet
 - Poder compartir pantalla (screen sharing) a los moderadores.
 
-*Importante*: Entendemos que el flujo normal de un desarrollador es realizar preguntas, consultar el internet y buscar informacion, por lo tanto hacer uso de estods recursos como copy & paste, buscar en google, consultar stackoverflow o cualquier material de apoyo para completar la prueba es permitido.
+*Importante*: Entendemos que el flujo normal de un desarrollador es realizar preguntas, consultar el internet y buscar información, por lo tanto hacer uso de estos recursos como copy & paste, buscar en google, consultar stackoverflow o cualquier material de apoyo para completar la prueba es permitido.
 
 ## Aptitudes a Validar.
 
@@ -28,14 +27,13 @@ Dentro de las aptitudes que queremos evaluar está:
 4. Entendimiento técnico de las herramientas utilizadas.
 5. Creatividad y rapidez de desarrollo.
 
-
 ## Prueba Técnica.
 
 Deberás realizar las siguientes tareas:
 
 1. Desarrollar un Login de usuario, con los siguientes campos: 
       - Usuario y Password 
-      - Bóton que solo se active cuando ambos campos estén completados.
+      - Botón que solo se active cuando ambos campos estén completados.
 2. Deberás autenticarte con el servicio https://bhdleonfrontend-test.herokuapp.com/sign_in:, recuperar el access_token y colocarlo en el header de cada petición siguiente.
 
 Servicio de tipo POST.
@@ -90,7 +88,7 @@ Response:
 
 ## Puntos adicionales:
 
-1. El diseño no se provee en esta prueba, sinembargo genera puntos adicionales por incluirlos.
+1. El diseño no se provee en esta prueba, sin embargo genera puntos adicionales por incluirlos.
 2. Pruebas unitarias de cada componente, servicio o utilitario genera puntos adicionales.
 3. Explicar tu idea de desarrollo mientras desarrollas, genera puntos adicionales.
 
