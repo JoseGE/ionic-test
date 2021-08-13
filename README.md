@@ -88,8 +88,8 @@ Response:
 
 ## Puntos adicionales:
 
-1. El diseño no se provee en esta prueba, sin embargo genera puntos adicionales por incluirlos.
+1. El diseño no se provee en esta prueba, sin embargo genera puntos adicionales por incluirlo.
 2. Pruebas unitarias de cada componente, servicio o utilitario genera puntos adicionales.
 3. Explicar tu idea de desarrollo mientras desarrollas, genera puntos adicionales.
 
-***Nota al margen:*** Al terminar la prueba estarás respondiendo a una seria de preguntas  luego de haber terminado el tiempo.
+***Nota al margen:*** Al terminar la prueba estarás respondiendo a una seria de preguntas luego de haber terminado el tiempo.
