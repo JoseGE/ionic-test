@@ -1,6 +1,6 @@
 # Prueba Técnica IONIC  - Banco BHDLeón.
 
-¡Hola !, bienvenido a la prueba técnica IONIC de banco BhdLeón, esta prueba tiene como propósito principal el conocerte más, además nos permitirá validar tus aptitudes ya demostrada durante la entrevista, entender la forma en la que regularmente enfrentas los problemas presentados durante la construcción del software y qué tanto podemos aprovecharla.
+¡Hola !, Bienvenido a la prueba técnica IONIC de banco BhdLeón. Esta prueba tiene como propósito principal el conocerte más, además nos permitirá validar tus aptitudes ya demostrada durante la entrevista, entender la forma en la que regularmente enfrentas los problemas presentados durante la construcción del software y qué tanto podemos aprovecharla.
 
 Es importante mencionar que cada quien tiene la mejor forma de hacer las cosas, sin embargo, para nosotros es muy importante que apliques ciertos conceptos durante esta prueba, que nos permitirá saber que tan rápido puedas aportar al proyecto donde estarás asignado.
 
