@@ -29,6 +29,8 @@ Dentro de las aptitudes que queremos evaluar está:
 
 ## Prueba Técnica.
 
+** ! Partamos del echo de que es la base una aplicación bastante grande ! **
+
 Deberás realizar las siguientes tareas:
 
 1. Desarrollar un Login de usuario, con los siguientes campos: 
@@ -88,7 +90,7 @@ Response:
 
 ## Puntos adicionales:
 
-1. El diseño no se provee en esta prueba, sin embargo genera puntos adicionales por incluirlo.
+1. El diseño y estilos no se provee en esta prueba, sin embargo genera puntos adicionales por incluirlo siempre y cuando sean creados por el desarrollador.
 2. Pruebas unitarias de cada componente, servicio o utilitario genera puntos adicionales.
 3. Explicar tu idea de desarrollo mientras desarrollas, genera puntos adicionales.
 
