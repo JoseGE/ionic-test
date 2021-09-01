@@ -13,10 +13,5 @@ export class ApiService {
 
     }
 
-    login(user: IUserLogin):Observable<any> {
-        return this.http.post(`${this.apiUrl}/sign_in`,user)
-    }
-    saveUser(user) {
-        localStorage.setItem(environment.userStorageName, JSON.stringify(user));
-    }
+   
 }

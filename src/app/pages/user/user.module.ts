@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginPage } from './login/login-page';
+import { UserService } from 'src/app/services/user.service';
 
 
 
@@ -13,6 +14,9 @@ import { LoginPage } from './login/login-page';
     IonicModule,
     ReactiveFormsModule
   ],
-  declarations: [LoginPage]
+  declarations: [LoginPage],
+  providers:[
+    UserService
+  ]
 })
 export class UserModule {}

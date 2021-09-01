@@ -15,4 +15,4 @@ import { ProductListPage } from './product-list/product-list.page';
   ],
   declarations: [ProductListPage]
 })
-export class HomePageModule {}
+export class ProductsModule {}
