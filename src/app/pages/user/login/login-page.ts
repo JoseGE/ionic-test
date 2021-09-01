@@ -2,7 +2,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { IUserLogin } from 'src/app/interfaces/userLogin.inteface';
+import { IUserLogin } from 'src/app/interfaces/userLogin.intefaces';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -17,6 +17,7 @@ export class LoginPage implements OnInit {
     private router: Router
   ) {}
   ngOnInit() {
+    this.userService.clearUser();
     this.initForm();
   }
   initForm() {

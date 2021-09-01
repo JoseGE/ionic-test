@@ -4,7 +4,6 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { ProductListPage } from './product-list/product-list.page';
 import { ProductsRoutingModule } from './products-routing.module';
-import { ApiService } from 'src/app/services/api.service';
 
 
 
@@ -16,6 +15,7 @@ import { ApiService } from 'src/app/services/api.service';
     ProductsRoutingModule
   ],
  
-  declarations: [ProductListPage]
+  declarations: [ProductListPage],
+ 
 })
 export class ProductsModule {}

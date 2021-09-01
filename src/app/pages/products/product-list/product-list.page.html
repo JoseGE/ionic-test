@@ -1,12 +1,29 @@
 <ion-header [translucent]="true">
     <ion-toolbar>
       <ion-title>
-        Products
+        Products List
       </ion-title>
     </ion-toolbar>
   </ion-header>
   
   <ion-content [fullscreen]="true">
-    
+      <div class="ion-padding">
+
+    <ion-list>
+        <ion-item *ngFor="let product of productList">
+         
+            <ion-label>
+           <h3> {{product.alias}}</h3>
+           <h4>{{product.number}}</h4>
+        </ion-label>
+        <ion-note slot="end"> {{product.availableAmount | currency:'RD$'}}</ion-note>
+        </ion-item>
+    </ion-list>
+</div>
+
+    <div class="ion-text-center">
+
+        <ion-button fill="outline" shape="round" [routerLink]="['/user/login']"> Salir</ion-button>
+    </div>
   </ion-content>
   

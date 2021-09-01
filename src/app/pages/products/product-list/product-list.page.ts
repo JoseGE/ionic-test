@@ -8,7 +8,7 @@ import { ApiService } from 'src/app/services/api.service';
   
 })
 export class ProductListPage implements OnInit {
-
+  productList: Array<IProduct> = null;
   constructor(private apiService:ApiService) {}
 
   ngOnInit() {
@@ -18,6 +18,7 @@ export class ProductListPage implements OnInit {
   loadProductList() {
     this.apiService.productList().subscribe((productList: Array<IProduct>) =>{
       console.log(productList);
+      this.productList = productList;
     })
   }
 

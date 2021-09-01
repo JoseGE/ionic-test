@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { IUser } from '../interfaces/user.interface';
-import { IUserLogin } from '../interfaces/userLogin.inteface';
+import { IUserLogin } from '../interfaces/userLogin.intefaces';
 
 @Injectable({
   providedIn: 'root'
@@ -29,6 +29,10 @@ export class UserService {
 
   saveUser(user) {
       localStorage.setItem(environment.userStorageName, JSON.stringify(user));
+  }
+
+  clearUser() {
+    localStorage.clear();
   }
 
   userLoguedData(): IUser {
