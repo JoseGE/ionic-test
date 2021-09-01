@@ -95,3 +95,6 @@ Response:
 3. Explicar tu idea de desarrollo mientras desarrollas, genera puntos adicionales.
 
 ***Nota al margen:*** Al terminar la prueba estarás respondiendo a una seria de preguntas luego de haber terminado el tiempo.
+
+
+delcio_polanco@bhdleon.com.do
