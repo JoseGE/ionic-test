@@ -4,6 +4,10 @@ import { ProductListPage } from './product-list/product-list.page';
 
 const routes: Routes = [
   {
+    path:'',
+    redirectTo:'list'
+  },
+  {
     path: 'list',
     component: ProductListPage,
   }
