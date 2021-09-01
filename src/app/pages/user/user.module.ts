@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginPage } from './login/login-page';
 import { UserService } from 'src/app/services/user.service';
+import { UserRoutingModule } from './user-routing.module';
 
 
 
@@ -12,7 +13,8 @@ import { UserService } from 'src/app/services/user.service';
     CommonModule,
     FormsModule,
     IonicModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    UserRoutingModule
   ],
   declarations: [LoginPage],
   providers:[

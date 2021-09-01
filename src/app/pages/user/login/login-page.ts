@@ -1,6 +1,8 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { IUserLogin } from 'src/app/interfaces/userLogin.intefaces';
+import { Router } from '@angular/router';
+import { IUserLogin } from 'src/app/interfaces/userLogin.inteface';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -9,7 +11,11 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class LoginPage implements OnInit {
   loginForm: FormGroup;
-  constructor(private fb: FormBuilder) {}
+  constructor(
+    private userService: UserService,
+    private fb: FormBuilder,
+    private router: Router
+  ) {}
   ngOnInit() {
     this.initForm();
   }
@@ -19,12 +25,25 @@ export class LoginPage implements OnInit {
       password: [, Validators.required],
     });
   }
-  login() {
-    return true;
-    // const user: IUserLogin = {
-    //   userId: '00100010321',
-    //   password: '1111',
-    // };
-    // this.apiService.login(user).subscribe((userReponse) => {});
+  async login() {
+    if (this.loginForm.valid) {
+      const userDataFrom = this.loginForm.value;
+      const user: IUserLogin = {
+        userId: userDataFrom.userId,
+        password: userDataFrom.password,
+      };
+      const isLogin = await this.userService.login(user).catch((err:HttpErrorResponse )=>{
+        if(err.status == 404){
+
+          alert(err.error.message)
+        }
+      });
+      if (isLogin) {
+        this.router.navigate(['/products/list']);
+      }
+      return;
+    }
+
+    alert("Por favor complete los campos.")
   }
 }
